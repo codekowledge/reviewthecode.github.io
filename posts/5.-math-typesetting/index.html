@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html><head>
+
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="canonical" href="https://example.com/posts/5.-math-typesetting/">
+
+    <title>
+        
+        Math Typesetting | Review the { Code }
+        
+    </title>
+
+    
+    <link href="https://example.comcss/fontawesome.min.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://example.com/css/ace.min.css">
+
+    
+    
+        
+    
+
+</head>
+<body><nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-top" id="navbarMain">
+    <div>
+        <div>
+            <a class="navbar-brand" href="/">
+                Review the { Code }
+            </a>
+        </div>
+        
+        
+    </div>
+</nav>
+<div class="container-fluid">
+            <div class="row">
+
+                <div class="docs-sidenav order-0 col-12 col-md-3 col-lg-2 col-xl-2 position-sticky border-0">
+
+<nav class="navbar navbar-expand-md navbar-light pl-0">
+  <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
+    data-target="#sidenav-left-collapse" aria-controls="sidenav-left-collapse" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+
+  <div class="navbar-collapse align-items-start flex-column bg-light" id="sidenav-left-collapse">
+
+    <ul class="list-group border-0">
+      <li class="shadow-sm p-3 bg-white rounded list-group-item border"><a  class="text-dark" href="/">Home</a></li>
+      <li class="shadow-sm p-3 bg-white rounded list-group-item border"><a  class="text-dark" href="/java/">Java</a></li>
+      <li class="shadow-sm p-3 bg-white roundedlist-group-item border"><a  class="text-dark" href="/spring/">Spring </a></li>
+      <li class="shadow-sm p-3 bg-white roundedlist-group-item border"><a  class="text-dark" href="/spring-boot/">Spring Boot</a></li>
+      <li class="shadow-sm p-3  bg-white roundedlist-group-item border"><a  class="text-dark" href="/code-review/">Code Reviews</a></li>
+      <li class="shadow-sm p-3 bg-white roundedlist-group-item border"><a  class="text-dark" href="/app-migration/">Application Migration</a></li>
+    </ul>
+  </div>
+
+
+
+</nav>
+
+</div>
+                <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
+	<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#examples">Examples</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+</div>
+                <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
+                
+Single
+<h1>Math Typesetting</h1>
+
+<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+<p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
+<ul>
+<li>Create a partial under <code>/layouts/partials/math.html</code></li>
+<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
+<li>Include the partial in your templates like so:</li>
+</ul>
+<pre><code>{{ if or .Params.math .Site.Params.math }}
+{{ partial &quot;math.html&quot; . }}
+{{ end }}
+</code></pre><ul>
+<li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
+<li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files.</li>
+</ul>
+<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a>
+</p>
+<h3 id="examples">Examples</h3>
+<p>Inline math: $$ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $$</p>
+<p>Block math:</p>
+<p>$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$</p>
+
+
+                    
+                    <div class="row"><div class="position-relative mx-auto col-lg-9">
+                          <div class="bg-dark overflow-hidden p-1 shadow">
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/posts/4.-emoji-support/" title="Emoji Support"><i class="fas fa-chevron-left p-1"></i>Emoji Support</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/posts/6.-happy-birthday-chords/" title="Happy Birthday Chords">Happy Birthday Chords<i class="fas fa-chevron-right p-1"></i></a>
+    </div>
+</div>
+
+
+                        </div></div> 
+
+                </div>
+
+            </div> 
+
+        </div> 
+<script src="https://example.comlib/jquery.min.js"></script> 
+<script src="https://example.comlib/popper.min.js"></script> 
+
+<script src="https://example.comjs/bootstrap.min.js"></script> 
+
+
+<script type="text/javascript" src="/plugins/lunr.min.js"></script>
+<script type="text/javascript" src="/plugins/auto-complete.js"></script>
+<link href="/plugins/auto-complete.css" rel="stylesheet">
+<script type="text/javascript">
+  
+      var baseurl = "https:\/\/example.com";
+  
+</script>
+<script type="text/javascript" src="/plugins/search.js"></script>
+
+
+<script type="text/javascript" src="/plugins/clipboard.js"></script>
+<script>
+  new ClipboardJS('.btn');
+</script>
+</body>
+</html>

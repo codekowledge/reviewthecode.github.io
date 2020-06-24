@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java Tutorial on Review the { Code }</title>
+    <link>https://example.com/tags/java-tutorial/</link>
+    <description>Recent content in Java Tutorial on Review the { Code }</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/java-tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quick Start</title>
+      <link>https://example.com/java-tutorial/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/java-tutorial/</guid>
+      <description>&lt;p&gt;Java has been a widely used language which has one of the largest&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
