@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Review the { Code }</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Review the { Code }</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alerts</title>
+      <link>https://example.com/shortcodes/alerts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/alerts/</guid>
+      <description>The alerts shortcode allows you to let information stand out by means of an alert styled box. This can be used to indicate danger, warning, success or info.
+ I&amp;rsquo;m a danger alert  I&amp;rsquo;m a warning alert  I&amp;rsquo;m a success alert  I&amp;rsquo;m an info alert  Usage Place the following shortcode on the page Copy   {{&amp;lt; alert style=&amp;#34;STYLE&amp;#34; &amp;gt;}} [content] {{&amp;lt; /alert &amp;gt;}}    Parameters Style The style parameter is directly applied to the alert as a class in the format &amp;ldquo;alert-{STYLE}&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>https://example.com/golang/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/golang/installation/</guid>
+      <description>Installing Ace is easy. Just install the Hugo binary, create a new site and install the Ace theme. Installing Hugo In order to run this theme, you need to install Hugo on your system. This theme requires Hugo&amp;rsquo;s extended version to support SCSS compilation, so make please sure you install the extended version. For more detailed information and other methods of installation you can visit the Hugo installation guide.
+There may be other ways to install Hugo that are more applicable for your project.</description>
+    </item>
+    
+    <item>
+      <title>Buttons</title>
+      <link>https://example.com/configuration/buttons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/configuration/buttons/</guid>
+      <description>The button shortcode allows you to add a button to the page. This button is a HTML anchor element and can thus be used to link to another page or website.
+ Button  Button  Button  Button  Button  Button  Button  Usage Place the following shortcode on the page Copy   {{&amp;lt; button style=&amp;#34;STYLE&amp;#34; link=&amp;#34;https://yourwebsite.com&amp;#34; &amp;gt;}} [content] {{&amp;lt; /button &amp;gt;}}    Parameters style The style parameter is directly applied to the alert as a class in the format &amp;ldquo;btn-{STYLE}&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>Buttons</title>
+      <link>https://example.com/shortcodes/buttons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/buttons/</guid>
+      <description>The button shortcode allows you to add a button to the page. This button is a HTML anchor element and can thus be used to link to another page or website.
+ Button  Button  Button  Button  Button  Button  Button  Usage Place the following shortcode on the page Copy   {{&amp;lt; button style=&amp;#34;STYLE&amp;#34; link=&amp;#34;https://yourwebsite.com&amp;#34; &amp;gt;}} [content] {{&amp;lt; /button &amp;gt;}}    Parameters style The style parameter is directly applied to the alert as a class in the format &amp;ldquo;btn-{STYLE}&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>Usage</title>
+      <link>https://example.com/golang/usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/golang/usage/</guid>
+      <description>With the site created and the theme installed, it&amp;rsquo;s time to run the server and create content. Starting &amp;amp; building the site Development server To start the site for development mode, execute the following command while in your /docs folder: Copy   hugo server    This will start a server on your localhost that will live-update with any changes you make to your site.
+For more Hugo commands visit https://gohugo.</description>
+    </item>
+    
+    <item>
+      <title>Childpages</title>
+      <link>https://example.com/shortcodes/childpages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/childpages/</guid>
+      <description>The childpages shortcode allows you to show a list of sub-pages of the current page. For example, the Getting started page of this documentation has three child pages: Installation, Configuration and Creating content. Placing the childpages shortcode in the Getting started page will place a create a list of these sub-pages in that page.
+Usage Simply place the following shortcode on the page Copy   {{&amp;lt; childpages &amp;gt;}}    </description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>https://example.com/shortcodes/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/code/</guid>
+      <description>Add code to your page with syntax highlighting and a copy button so your users can easily copy the code to their clipboard with the press of a button. The code may be entered inside the shortcode or come from an external file.
+Copy   &amp;lt;div class=&amp;#34;mydiv bg-primary shadow text-white&amp;#34;&amp;gt; &amp;lt;h1 class=&amp;#34;title&amp;#34;&amp;gt;Hi there&amp;lt;/h1&amp;gt; &amp;lt;p class=&amp;#34;lead&amp;#34;&amp;gt;I&amp;#39;m inside a code shortcode. Check out my syntax highlighting!.&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt;    Usage Simply place the following shortcode on the page</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://example.com/posts/emoji-support-copy/</link>
+      <pubDate>Tue, 01 Oct 2019 17:55:28 +0800</pubDate>
+      
+      <guid>https://example.com/posts/emoji-support-copy/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Collapse</title>
+      <link>https://example.com/shortcodes/collapse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/collapse/</guid>
+      <description>Feel like hiding some content from your visitor in a collapsible element? The collapse shortcode does exactly that. It creates a button that shows or hides the content in the shortcode on request.
+Click me to show content  Hi there, I&#39;m the hidden content. Didn&#39;t see that one coming, huh?   Usage Simply place the following shortcode on the page Copy   {{&amp;lt; collapse title=&amp;#34;TITLE&amp;#34; &amp;gt;}} [content] {{&amp;lt; /collapse &amp;gt;}}    Parameters title The lang parameter defines the text to show in the button that toggles the collapse content.</description>
+    </item>
+    
+    <item>
+      <title>Emoji Extension Support</title>
+      <link>https://example.com/posts/emoji-support/</link>
+      <pubDate>Tue, 01 Oct 2019 17:55:28 +0800</pubDate>
+      
+      <guid>https://example.com/posts/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Doublecode</title>
+      <link>https://example.com/shortcodes/doublecode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/doublecode/</guid>
+      <description>The doublecode shortcode works the same as the code shortcode, but extends the functionality by also rendering the code in the page. This is useful for showing the code of HTML elements in your page.
+Hi there
+I&#39;m inside a doublecode shortcode, that&#39;s why I look so fancy.
+   Copy   &amp;lt;div class=&amp;#34;mydiv bg-primary shadow text-white p-3 m-4 border-primary&amp;#34;&amp;gt; &amp;lt;p class=&amp;#34;h4 title&amp;#34;&amp;gt;Hi there&amp;lt;/p&amp;gt; &amp;lt;p class=&amp;#34;lead mb-0&amp;#34;&amp;gt;I&amp;#39;m inside a doublecode shortcode, that&amp;#39;s why I look so fancy.</description>
+    </item>
+    
+    <item>
+      <title>Lead</title>
+      <link>https://example.com/shortcodes/lead/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/lead/</guid>
+      <description>The lead shortcode creates a paragraph with the lead class to make it stand out. Great for introductions or summaries.
+I&amp;rsquo;m a lead paragraph. That means I&amp;rsquo;m more important. And you can see that. Usage Simply place the following shortcode on the page Copy   {{&amp;lt; lead &amp;gt;}} [content] {{&amp;lt; /lead &amp;gt;}}    </description>
+    </item>
+    
+    <item>
+      <title>Panel</title>
+      <link>https://example.com/shortcodes/panel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/panel/</guid>
+      <description>Draw your visitor&amp;rsquo;s attention by separating information from the rest of the page using a panel. Convey meaning to this information by using colors implying danger, warning, success or info in a similar fashion as alerts.
+I&amp;#39;m important  Be sure to read me, I might have important information for you.    Usage Simply place the following shortcode on the page Copy   {{&amp;lt; panel title=&amp;#34;TITLE&amp;#34; style=&amp;#34;STYLE&amp;#34; &amp;gt;}} [content] {{&amp;lt; /panel &amp;gt;}}    Parameters Style The style parameter is directly applied to the alert as a class in the format &amp;ldquo;border-{STYLE}&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>https://example.com/posts/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/posts/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>https://example.com/posts/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/posts/migrate-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>Java 8 new Features</title>
+      <link>https://example.com/golang/1.-markdown-syntax/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/golang/1.-markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Migrate Apps from Java8 to Java 14</title>
+      <link>https://example.com/code-review/1.-spring-boot-new-features/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/code-review/1.-spring-boot-new-features/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java 11 new Features</title>
+      <link>https://example.com/java/java11/1.-markdown-syntax/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/java/java11/1.-markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java 11 new Features</title>
+      <link>https://example.com/java/java14/1.-markdown-syntax/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/java/java14/1.-markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java 8 new Features</title>
+      <link>https://example.com/java/1.-markdown-syntax/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/java/1.-markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java 8 new Features</title>
+      <link>https://example.com/java/java-8/1.-markdown-syntax/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/java/java-8/1.-markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://example.com/posts/1.-markdown-syntax/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/posts/1.-markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Migrating Java 8 to Java 11</title>
+      <link>https://example.com/app-migration/1.-java-8-to-11-migration/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/app-migration/1.-java-8-to-11-migration/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spring 5 New Features</title>
+      <link>https://example.com/spring/spring-new-features/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/spring/spring-new-features/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spring Boot New Features 1</title>
+      <link>https://example.com/spring-boot/1.-spring-boot-new-features-copy-2/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/spring-boot/1.-spring-boot-new-features-copy-2/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spring Boot New Features 2</title>
+      <link>https://example.com/spring-boot/2.-spring-boot-new-features-copy-3/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/spring-boot/2.-spring-boot-new-features-copy-3/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spring Boot New Features 3</title>
+      <link>https://example.com/spring-boot/3.-spring-boot-new-features-copy-4/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/spring-boot/3.-spring-boot-new-features-copy-4/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spring Boot New Features 4</title>
+      <link>https://example.com/spring-boot/4.-spring-boot-new-features-copy/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/spring-boot/4.-spring-boot-new-features-copy/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spring Boot New Features 5</title>
+      <link>https://example.com/spring-boot/5.-spring-boot-new-features/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/spring-boot/5.-spring-boot-new-features/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>https://example.com/posts/3.-rich-content/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/posts/3.-rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://example.com/posts/4.-emoji-support/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/posts/4.-emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://example.com/posts/5.-math-typesetting/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/posts/5.-math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Happy Birthday Chords</title>
+      <link>https://example.com/posts/6.-happy-birthday-chords/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/posts/6.-happy-birthday-chords/</guid>
+      <description>Happy ABirthday Eto youHappy EBirthday Ato youHappy A7Birthday dear DJohnnyHappy ABirthday Eto Ayou </description>
+    </item>
+    
+    <item>
+      <title>(HO)go Template Primer</title>
+      <link>https://example.com/posts/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/posts/goisforlovers/</guid>
+      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+This document is a brief primer on using Go templates.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://example.com/posts/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/posts/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/java-tutorial/quick-start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/java-tutorial/quick-start/</guid>
+      <description>Java - A quick introduction Java is one of the widely used application development language across many domains. James Gosling created the language during the year 1995 and since then it has matured every release. There are thousands of developers who work on this programming language and have built their carrier. Even after two decades of development the language still has demand in the market and has attracted a lot of young developers.</description>
+    </item>
+    
+    <item>
+      <title>Table</title>
+      <link>https://example.com/shortcodes/table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/shortcodes/table/</guid>
+      <description>The table shortcode allows you to wrap your tables in a table class, providing styling to the table such as borders, stripes and hover effects.
+   Tables are cool     col 3 is right-aligned $1600   col 2 is centered $12   zebra stripes are neat $1     Usage Place the following shortcode on the page Copy   {{&amp;lt; table style=&amp;#34;STYLE&amp;#34; &amp;gt;}} | Tables | are | cool | | ------------- |:-------------:| -----:| | col 3 is | right-aligned | $1600 | | col 2 is | centered | $12 | | zebra stripes | are neat | $1 | {{&amp;lt; /table &amp;gt;}}    Parameters Style The style parameter is directly applied to the table as a class in the format &amp;quot;{STYLE}&amp;quot;.</description>
+    </item>
+    
+  </channel>
+</rss>

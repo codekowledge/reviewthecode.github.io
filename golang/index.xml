@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting started with GoLang on Review the { Code }</title>
+    <link>https://example.com/golang/</link>
+    <description>Recent content in Getting started with GoLang on Review the { Code }</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installation</title>
+      <link>https://example.com/golang/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/golang/installation/</guid>
+      <description>Installing Ace is easy. Just install the Hugo binary, create a new site and install the Ace theme. Installing Hugo In order to run this theme, you need to install Hugo on your system. This theme requires Hugo&amp;rsquo;s extended version to support SCSS compilation, so make please sure you install the extended version. For more detailed information and other methods of installation you can visit the Hugo installation guide.
+There may be other ways to install Hugo that are more applicable for your project.</description>
+    </item>
+    
+    <item>
+      <title>Usage</title>
+      <link>https://example.com/golang/usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/golang/usage/</guid>
+      <description>With the site created and the theme installed, it&amp;rsquo;s time to run the server and create content. Starting &amp;amp; building the site Development server To start the site for development mode, execute the following command while in your /docs folder: Copy   hugo server    This will start a server on your localhost that will live-update with any changes you make to your site.
+For more Hugo commands visit https://gohugo.</description>
+    </item>
+    
+    <item>
+      <title>Java 8 new Features</title>
+      <link>https://example.com/golang/1.-markdown-syntax/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/golang/1.-markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
