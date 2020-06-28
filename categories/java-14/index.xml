@@ -20,5 +20,15 @@
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Java Tutorials</title>
+      <link>https://example.com/java/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/java/</guid>
+      <description>&lt;p&gt;This is Java home page content. You can provide whatever content you want for the home page.
+This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

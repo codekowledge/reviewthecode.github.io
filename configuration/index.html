@@ -47,7 +47,7 @@
 </head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <body><nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-top" id="navbarMain">
+    <body><nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-top">
     <div>
         <div>
             <a class="navbar-brand" href="/">
@@ -63,57 +63,107 @@
 
                 <div class="docs-sidenav order-0 col-12 col-md-3 col-lg-2 col-xl-2 position-sticky border-0">
 
-<nav class="navbar navbar-expand-md navbar-light pl-0">
-  <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
-    data-target="#sidenav-left-collapse" aria-controls="sidenav-left-collapse" aria-expanded="false"
-    aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
 
 
-  <div class="navbar-collapse align-items-start flex-column bg-light" id="sidenav-left-collapse">
 
-    <ul class="list-group border-0">
-      <li class="shadow-sm p-3 bg-white rounded list-group-item border"><a  class="text-dark" href="/">Home</a></li>
-      <li class="shadow-sm p-3 bg-white rounded list-group-item border"><a  class="text-dark" href="/java/">Java</a></li>
-      <li class="shadow-sm p-3 bg-white roundedlist-group-item border"><a  class="text-dark" href="/spring/">Spring </a></li>
-      <li class="shadow-sm p-3 bg-white roundedlist-group-item border"><a  class="text-dark" href="/spring-boot/">Spring Boot</a></li>
-      <li class="shadow-sm p-3  bg-white roundedlist-group-item border"><a  class="text-dark" href="/code-review/">Code Reviews</a></li>
-      <li class="shadow-sm p-3 bg-white roundedlist-group-item border"><a  class="text-dark" href="/app-migration/">Application Migration</a></li>
-    </ul>
+<div class="bg-light border-right" id="sidebar-wrapper">
+  <div class="sidebar-heading">
+      
+    <h5>Configuration</h5>
+    
   </div>
+  <div class="list-group list-group-flush">
+    
+    <a class="list-group-item list-group-item-action bg-light text-dark" href="https://example.com/configuration/buttons/">Buttons</a>
+    
+  </div>
+</div>
 
 
 
-</nav>
 
 </div>
-                <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
-	<nav id="TableOfContents">
-  <ul>
-    <li><a href="#page-ordering">Page ordering</a></li>
-    <li><a href="#table-of-contents">Table of contents</a></li>
-    <li><a href="#google-analytics">Google Analytics</a></li>
-    <li><a href="#read-more-navigation">Read more navigation</a></li>
-    <li><a href="#search">Search</a></li>
-  </ul>
-</nav>
-</div>
-</div>
+                <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left">
+                   
+                   
+                </div>
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
+<p class="lead">
+    Customize and tweak Ace using a number of configuration options.
+</p>
+
+<h2 id="page-ordering">Page ordering</h2>
+<p>By default, pages are sorted on the weight assigned to them in their <code>frontmatter</code>. This is set in <code>config.toml</code>, using <code>orderSectionsby = &ldquo;weight&quot;</code>. Change this to <code>&quot;title&quot;</code> to sort pages alphabetically based on their title instead. Alternatively, do not assign a weight to any pages and it will also sort them alphabetically on their title.</p>
+<h2 id="table-of-contents">Table of contents</h2>
+<p>By default, a table of contents (ToC) is generated for each page in the right side menu. This can be disabled using:</p>
 
 
 
-<ul>
+
+
+
     
-    <li>
-    <a href="https://example.com/configuration/buttons/">Buttons</a>
-    <div class="meta">Mon, Jan 1, 0001</div>
-    </li>
     
-</ul>
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_04197ee706">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_04197ee706">
+    <pre><code class="language-<nil>" data-lang="<nil>">
+toc = false
+
+</code></pre>
+    </div>
+</div>
+
+
+
+
+<p>in the <code>config.toml</code> or the <code>frontmatter</code> (a page&rsquo;s markdown file) for a page-wide or page-specific disabling of the ToC respectively.</p>
+<h2 id="google-analytics">Google Analytics</h2>
+<p>Enable Google Analytics by adding your GA tracking ID to the <code>config.toml</code> file, at:
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_77a1e5ce9a">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_77a1e5ce9a">
+    <pre><code class="language-<nil>" data-lang="<nil>">
+googleAnalytics = &quot;XX-XXXXXXXXX-X&quot;
+
+</code></pre>
+    </div>
+</div>
+
+
+
+
+Where <code>XX-XXXXXXXXX-X</code> is your tracking ID.</p>
+<h2 id="read-more-navigation">Read more navigation</h2>
+<p>In <code>config.toml</code> or a page&rsquo;s <code>frontmatter</code>, set <code>disableReadmoreNav = true</code> to disable the prev/next buttons at the buttom of every page.</p>
+<h2 id="search">Search</h2>
+<p>Disable search by setting <code>disableSearch = true</code> in <code>config.toml</code>.</p>
 
 
 
